@@ -78,6 +78,14 @@
     uvu "^0.5.0"
     vfile-message "^3.0.0"
 
+"@astrojs/netlify@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@astrojs/netlify/-/netlify-0.4.6.tgz#288ba16bf0e693800caf9b7946304caa69083c76"
+  integrity sha512-ABKe9pB3lHx6r/FHdBdG8euCmVq7eN183wJNQ5kT3Ax9fYkndWMVgzAsdQp9tX7VgKuKNa4BgxSPKjl9YzRM1w==
+  dependencies:
+    "@astrojs/webapi" "^0.12.0"
+    esbuild "^0.14.42"
+
 "@astrojs/preact@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@astrojs/preact/-/preact-0.2.0.tgz#ac7da1ff03e318cc0d60f320ac74c42b69c4f9a8"
