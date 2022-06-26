@@ -1,6 +1,7 @@
 ---
 // Component Imports
 import SiteHeader from "@components/structure/SiteHeader.astro";
+import BodyHeader from "@components/structure/BodyHeader.astro";
 
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
@@ -26,8 +27,8 @@ let permalink = 'https://zesty-khapse-3cbf1f.netlify.app';
 		/>
 	</head>
 
-	<body>
-		<!-- TODO: place intro of site here -->
+	<body class="container mx-auto px-4">
+		<BodyHeader />
 		<!-- TODO: place homepage content here such as intro of each post -->
 	</body>
 </html>
